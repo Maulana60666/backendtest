@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahasiswa Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tambah Mahasiswa</h1>
+  
+  <form id="mahasiswa-form">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label for="jurusan">Jurusan:</label>
+    <input type="text" id="jurusan" name="jurusan" required>
+
+    <button type="submit">Tambah Mahasiswa</button>
+  </form>
+
+  <button id="lihat-mahasiswa">Lihat Mahasiswa</button>
+  <h2>Daftar Mahasiswa</h2>
+  <ul id="mahasiswa-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
